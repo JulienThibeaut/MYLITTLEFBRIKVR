@@ -1,1 +1,1 @@
-:sparkles: #DANS LE STUD :sparkles:
+# [INSERT NAME] STUDIO   :sparkles:
