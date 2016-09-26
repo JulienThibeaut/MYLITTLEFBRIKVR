@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+  }
+
+html, body, .container-table {
+   height: 100%;
+}
+.container-table {
+   display: table;
+}
+.vertical-center-row {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+/* first screen */
+.firstScreen-wrapper {
+  top: 0px;
+  left: 0px;
+}
+
+.parallax-holder {
+    margin-bottom: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.parallax {
+    height: 400px;
+    background: transparent;
+    margin-bottom: 0;
+}
+
+/* OUR SERVICES */
+.ourSerices-wrapper {
+  color:white;
+  padding: 20px 50px 450px;
+  background: #000000;
+}
+
+.servicesTitle h1{
+  margin-bottom: 30px;
+}
+
+.servicesTitle p{
+  margin-bottom: 50px;
+}
+
+.allServices {
+  color : #000000;
+}
+
+/* TEAM */
+.ourTeam-wrapper {
+  color:white;
+  padding: 20px 50px 450px;
+  background: #000000;
+}
+
+.teamTitle h1{
+  margin-bottom: 30px;
+}
+
+.teamTitle p{
+  margin-bottom: 50px;
+}
+
+.teamFounder {
+  color : #000000;
+  padding: 50px ;
+}
+
+/* CONTACT */
+.contact-wrapper {
+  color:white;
+  padding: 20px 50px 70px;
+  background: #000000;
+}
+
+.contactUs h1{
+  margin-bottom: 30px;
+  color: white;
+}
+
+
+
+
+/** hack **/
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
