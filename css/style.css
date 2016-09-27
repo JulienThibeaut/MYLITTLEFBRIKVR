@@ -24,17 +24,19 @@ html, body, .container-table {
 .navbar-custom {
     color:#ffffff;
     border-radius:0;
+    font-size: 20px;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+  color:#fff;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color:transparent;
+  color: #ffffff;
+  background-color:transparent;
 }
 .navbar-custom .navbar-brand {
-    color:#eeeeee;
+  font-size: 20px;
+  color:#eeeeee;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -77,7 +79,7 @@ html, body, .container-table {
 /* OUR SERVICES */
 .ourSerices-wrapper {
   color:white;
-  padding: 20px 50px 450px;
+  padding: 20px 50px;
   background: #000000;
 }
 
@@ -90,16 +92,24 @@ html, body, .container-table {
 }
 
 .allServices {
-  color : #000000;
+  color : white;
   padding-bottom: 70px;
 }
 
-.oneService-left {padding-left: 90px;}
-.oneService-right {padding-right: 90px;}
+.oneService-left {padding-left: 90px;margin-top:38px;}
+.oneService-right {padding-right: 90px;margin-top:38px;}
 
 .oneServiceTxt {
-  padding: 50px 50px;
   color: white;
+}
+
+.oneServiceTxt-right {
+  right: 90px;
+}
+
+.oneServiceTxt-left {
+  z-index: 1;
+  left: 90px;
 }
 
 /* animation element*/
@@ -194,6 +204,14 @@ html, body, .container-table {
 .fill {
     min-height: 100%;
     height: 100%;
+}
+
+.post-content {
+    position: absolute;
+}
+
+.thumbnail{
+    position:relative;
 }
 
 /*clearfixes*/
