@@ -91,7 +91,15 @@ html, body, .container-table {
 
 .allServices {
   color : #000000;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
+}
+
+.oneService-left {padding-left: 90px;}
+.oneService-right {padding-right: 90px;}
+
+.oneServiceTxt {
+  padding: 50px 50px;
+  color: white;
 }
 
 /* animation element*/
