@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Apercu-Light";
+  src: url("../font/apercu/fontie-package/Apercu-Light.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
@@ -15,7 +22,15 @@ body {
     font-family: 'Apercu-Bold';
     background:#ffffff;
     color:#000000;
-  }
+}
+
+.fontLight {
+  font-family: 'Apercu-Light';
+}
+
+.fontBold {
+  font-family: 'Apercu-Bold';
+}
 
 html, body, .container-table {
    height: 100%;
@@ -30,9 +45,11 @@ html, body, .container-table {
 
 /* NAV BAR */
 .navbar-custom {
+    font-family: 'Apercu-Light';
+    margin-top:10px;
     color:#ffffff;
     border-radius:0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -43,7 +60,7 @@ html, body, .container-table {
   background-color:transparent;
 }
 .navbar-custom .navbar-brand {
-  font-size: 20px;
+  font-size: 26px;
   color:#ffffff;
 }
 
@@ -60,8 +77,14 @@ html, body, .container-table {
   background-size: cover;
 }
 
+.catchPhrase {
+  width: 80%;
+  margin: 0 auto;
+}
 
 .catchPhrase h1{
+  font-family: 'Apercu-Light';
+  text-align: left;
   margin-top: 180px;
   font-size: 40px;
   color:#ffffff;
@@ -79,6 +102,8 @@ html, body, .container-table {
 }
 
 #svg1 {
+  width:60px;
+  margin-right: 100px;
   opacity: 0.4;
    transition: opacity 1s ease-in-out;
    -moz-transition: opacity 1s ease-in-out;
