@@ -20,7 +20,7 @@
 
 body {
     font-family: 'Apercu-Bold';
-    background:#ffffff;
+    background:#f8f8f8;
     color:#000000;
 }
 
@@ -126,6 +126,17 @@ html, body, .container-table {
   text-align : center;
 }
 
+.vision h1 {
+  margin-top: 30px;
+}
+
+.vision p {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+
 /* OUR SERVICES */
 .ourSerices-wrapper {
   color:#000000;
@@ -145,17 +156,24 @@ html, body, .container-table {
   margin-top: 50px;
 }
 
-.ourServices h2, p {
+.ourServices h2 {
   text-align: left;
 }
 
 .aService {
-  width: 400px;
+  width: 300px;
+  max-width:800px;
+  float:left;
+}
+
+.serv {
+  background:white;
+  border : 1px solid red;
 }
 
 .imgService {
-  overflow: hidden;
-  height: 200px;
+  width:400px;
+  float:right;
 }
 
 .imgService img {
@@ -163,7 +181,10 @@ html, body, .container-table {
 }
 
 .oneService-wrapper {
+margin: 0 auto;
+  width: 80%;
   margin-top: 50px;
+  border : 1px solid red;
 }
 
 /* CONTACT */
@@ -175,6 +196,10 @@ html, body, .container-table {
 .contactUs h1{
   margin-bottom: 30px;
   color:#000000;
+}
+
+.contactUs p {
+  text-align: center;
 }
 
 /** hack **/
