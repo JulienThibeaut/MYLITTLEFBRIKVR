@@ -100,10 +100,13 @@ html, body, .container-table {
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
 }
-
+.refs{
+  text-align: center;
+}
 #svg1 {
-  width:60px;
-  margin-right: 100px;
+  margin:0 50px 0 50px;
+  width:4%;
+ 
   opacity: 0.4;
    transition: opacity 1s ease-in-out;
    -moz-transition: opacity 1s ease-in-out;
@@ -125,13 +128,23 @@ html, body, .container-table {
   margin-top: 50px;
   text-align : center;
 }
-
+.titleh1{
+  color:#3B4859;
+  font-size:26px;
+}
+.parap{
+  color:#3B4859;
+  font-size:16px;
+  font-family: "Apercu-Light";
+}
 .vision h1 {
   margin-top: 30px;
+  color:#3B4859;
+  margin-bottom:30px;
 }
 
 .vision p {
-  font-size: 15px;
+  
   margin: 0 auto;
   width: 700px;
 }
@@ -148,7 +161,6 @@ html, body, .container-table {
 }
 
 .whyUs p {
-  font-size: 15px;
   margin: 0 auto;
   width: 700px;
   margin-top: 30px;
@@ -164,6 +176,8 @@ html, body, .container-table {
 
 .aService {
   width: 400px;
+  padding: 20px;
+  margin-left: 20px;
   max-width:800px;
 }
 
@@ -172,18 +186,30 @@ html, body, .container-table {
 }
 
 .imgService {
+  float:right;
+  width: 450px;
+  height: 298px;
+  overflow: hidden;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .imgService img {
-  width: 300px;
+  width: 700px;
+  border-bottom-right-radius:10px;
+  border-top-right-radius: 10px;
 }
 
 .oneService-wrapper {
-  padding: 10px;
+  
   margin: 0 auto;
   width: 900px;
   margin-top: 50px;
   background-color:white;
+  border:1px solid #E6E6E6;
+  border-radius:10px;
+  min-height:300px;
+  max-height:300px;
 }
 
 /* CONTACT */
@@ -194,7 +220,6 @@ html, body, .container-table {
 
 .contactUs h1{
   margin-bottom: 30px;
-  color:#000000;
 }
 
 .contactUs p {
@@ -210,4 +235,40 @@ html, body, .container-table {
 
 .fill {
     height: 85vh;
+}
+@media only screen and (max-width: 700px) {
+#svg1{
+  margin: 0 20px 0 20px;
+  width: 8%;
+}
+}
+@media only screen and (max-width: 1000px) {
+    .aService{
+      width:100%;
+      margin-left:0;
+      padding:0;
+    }
+    .oneService-wrapper{
+      max-height:none;
+      width:100%;
+    }
+    .imgService{
+      float:none;
+      width:100%;
+      height:auto;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 10px;
+
+    }
+    .imgService img{
+      width:100%;
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 10px;
+    }
+    .aService p, .aService h2{
+      padding:10px 20px 0px 20px;
+    }
+    }
 }
